@@ -1,5 +1,7 @@
 # Sustainable-Computing-Taxonomy
 
+For a dynamic exploration of the taxonomy, [click here](https://codebeautify.org/yaml-viewer-online?url=https://raw.githubusercontent.com/nsg-ethz/Sustainable-Computing-Taxonomy/refs/heads/main/test.yml)
+
 ```yaml
 Problem:
     Cause:
