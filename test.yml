@@ -1,0 +1,23 @@
+Problem:
+    Cause:
+        Agent:
+            Category:
+                - End users
+                - Policy makers
+                - Designers
+                - Engineers
+            State:
+                - Uninformed: Agents may lack the knowledge needed to recognize their role in causing environmental harm. For instance, software developers may not be aware of the energy implications of their design choices.
+                - Unmotivated: Even when the relevant information is available, some agents may not care sufficiently, may prioritize other goals, or even oppose the sustainable actions. This can manifest in overuse of digital services, disregard for efficiency in development, or neglect of sustainability in procurement and deployment choices.
+                - Unaware: Sometimes, agents are motivated and aware, yet lack the power to act. Users may face systems with no sustainable alternatives or settings. Developers may be constrained by organizational decisions or lack the authority to change core infrastructure.
+        Technology:
+            Type: 
+                - Hardware
+                - Software
+            Issue:
+                - Bloated
+                - Operated unsustainably
+                - Short lifetime
+                - High-footprint functionalities
+                - High-footprint manufacturing
+                - Stagnating
