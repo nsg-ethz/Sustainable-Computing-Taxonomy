@@ -21,3 +21,15 @@ Problem:
                 - High-footprint functionalities
                 - High-footprint manufacturing
                 - Stagnating
+    Impact:
+        Type:
+            - Direct
+            - Indirect
+            - Systemic
+        Life-cycle phase:
+            - Design
+            - Production
+            - Deployment
+            - Operation
+            - Decommission
+        Nature: Description of the impact
