@@ -1,0 +1,14 @@
+Evidence:
+    Data:
+        - Observations 
+        - Models 
+    Metrics: 
+    Angle:
+        - Top-down
+        - Bottom-up
+        - Hybrid
+    Reasoning:
+        - Attributional
+        - Consequential
+        - Hybrid
+    Boundaries:

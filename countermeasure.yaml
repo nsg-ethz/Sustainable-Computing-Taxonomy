@@ -1,0 +1,41 @@
+Countermeasure:
+    Intervention:
+        Agent: 
+            Category:
+                - End users
+                - Policy makers
+                - Designers
+                - Engineers
+                - ...
+        Action:
+            Domain:
+                - Technological
+                - Regulatory
+                - Behavioral
+            Sustainable Rs:
+                - Rethink
+                - Refuse
+                - Reduce
+                - Reuse
+                - Repair
+                - Recycle
+                - Rot
+        Life-cycle phase: 
+            - Design
+            - Production
+            - Deployment
+            - Operation
+            - Decommission
+        Temporality: 
+    Impact:
+        Type:
+            - Direct
+            - Indirect
+            - Systemic
+        Life-cycle phase: 
+            - Design
+            - Production
+            - Deployment
+            - Operation
+            - Decommission
+        Nature: 

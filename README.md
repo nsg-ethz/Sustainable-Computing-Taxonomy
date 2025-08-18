@@ -1,8 +1,19 @@
-# Sustainable-Computing-Taxonomy
+# Sustainable Computing Taxonomy
 
-For a dynamic exploration of the taxonomy, [click here](https://codebeautify.org/yaml-viewer-online?url=https://raw.githubusercontent.com/nsg-ethz/Sustainable-Computing-Taxonomy/refs/heads/main/test.yml)
+This repository presents a formalized taxonomy for Sustainable Computing. It structures the description around three interconnected parts:
 
-```yamlProblem:
+- A [**problem**](./problem.yaml) that connects a computing system to some environmental threat or damage;
+- A [**countermeasure**](./countermeasure.yaml) that aims to address that problem;
+- Pieces of [**evidence**](./evidence.yaml) that either unveil the problem or validate the efficiency of the countermeasure.
+
+> TODO: insert graphic here
+
+The complete taxonomy is shown below. It is accompanied by a [description of the various terms](./taxonomy-description.md)
+
+Finally, the repository hosts a [currated list of research studies or projects](./studies/) that are described using the taxonomy.  
+
+```yaml
+Problem:
     Cause:
         Agent:
             Category:

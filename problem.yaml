@@ -34,46 +34,10 @@ Problem:
             - Direct
             - Indirect
             - Systemic
-        Life-cycle phase:
+        Life-cycle phase: 
+            - Design
+            - Production
+            - Deployment
+            - Operation
+            - Decommission
         Nature:
-        
-Countermeasure:
-    Intervention:
-        Agent: 
-        Action:
-            Domain:
-                - Technological
-                - Regulatory
-                - Behavioral
-            Sustainable Rs:
-                - Rethink
-                - Refuse
-                - Reduce
-                - Reuse
-                - Repair
-                - Recycle
-                - Rot
-        Life-cycle phase: 
-        Temporality: 
-    Impact:
-        Type:
-            - Direct
-            - Indirect
-            - Systemic
-        Life-cycle phase: 
-        Nature: 
-    
-Evidence:
-    Data:
-        - Observations 
-        - Models 
-    Metrics: 
-    Approach:
-        - Top-down
-        - Bottom-up
-        - Hybrid
-    Reasoning:
-        - Attributional
-        - Consequential
-        - Hybrid
-    Boundaries:
