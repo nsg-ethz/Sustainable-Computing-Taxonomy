@@ -2,8 +2,7 @@
 
 For a dynamic exploration of the taxonomy, [click here](https://codebeautify.org/yaml-viewer-online?url=https://raw.githubusercontent.com/nsg-ethz/Sustainable-Computing-Taxonomy/refs/heads/main/test.yml)
 
-```yaml
-Problem:
+```yamlProblem:
     Cause:
         Agent:
             Category:
@@ -11,10 +10,11 @@ Problem:
                 - Policy makers
                 - Designers
                 - Engineers
+                - ...
             State:
-                - Uninformed: Agents may lack the knowledge needed to recognize their role in causing environmental harm. For instance, software developers may not be aware of the energy implications of their design choices.
-                - Unmotivated: Even when the relevant information is available, some agents may not care sufficiently, may prioritize other goals, or even oppose the sustainable actions. This can manifest in overuse of digital services, disregard for efficiency in development, or neglect of sustainability in procurement and deployment choices.
-                - Unaware: Sometimes, agents are motivated and aware, yet lack the power to act. Users may face systems with no sustainable alternatives or settings. Developers may be constrained by organizational decisions or lack the authority to change core infrastructure.
+                - Uninformed
+                - Unmotivated
+                - Unaware
         Technology:
             Type: 
                 - Hardware
@@ -26,4 +26,59 @@ Problem:
                 - High-footprint functionalities
                 - High-footprint manufacturing
                 - Stagnating
+                - ... 
+        Life-cycle phase: 
+            - Design
+            - Production
+            - Deployment
+            - Operation
+            - Decommission
+    Impact:
+        Type:
+            - Direct
+            - Indirect
+            - Systemic
+        Life-cycle phase:
+        Nature:
+        
+Countermeasure:
+    Intervention:
+        Agent: 
+        Action:
+            Domain:
+                - Technological
+                - Regulatory
+                - Behavioral
+            Sustainable Rs:
+                - Rethink
+                - Refuse
+                - Reduce
+                - Reuse
+                - Repair
+                - Recycle
+                - Rot
+        Life-cycle phase: 
+        Temporality: 
+    Impact:
+        Type:
+            - Direct
+            - Indirect
+            - Systemic
+        Life-cycle phase: 
+        Nature: 
+    
+Evidence:
+    Data:
+        - Observations 
+        - Models 
+    Metrics: 
+    Approach:
+        - Top-down
+        - Bottom-up
+        - Hybrid
+    Reasoning:
+        - Attributional
+        - Consequential
+        - Hybrid
+    Boundaries:
 ```
