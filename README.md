@@ -1,6 +1,7 @@
 # Sustainable Computing Taxonomy
 
-This repository presents a formalized taxonomy for Sustainable Computing. It structures the description around three interconnected parts:
+This repository presents a formalized taxonomy for Sustainable Computing.
+The description is structured around three interconnected parts:
 
 - A [**problem**](./problem.yaml) that connects a computing system to some environmental threat or damage;
 - A [**countermeasure**](./countermeasure.yaml) that aims to address that problem;
@@ -8,9 +9,9 @@ This repository presents a formalized taxonomy for Sustainable Computing. It str
 
 > TODO: insert graphic here
 
-The complete taxonomy is shown below. It is accompanied by a [description of the various terms](./taxonomy-description.md)
+The complete taxonomy is shown below and is accompanied by a [description of the various terms](./taxonomy-description.md).
 
-Finally, the repository hosts a [currated list of research studies or projects](./studies/) that are described using the taxonomy.  
+Finally, the repository hosts a [curated list of research studies or projects](./studies/) that are described using the taxonomy.  
 
 ```yaml
 Problem:
