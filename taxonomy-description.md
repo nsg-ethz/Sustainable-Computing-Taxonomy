@@ -1,6 +1,8 @@
 # Description of the taxonomy terms
 
-> For now this is just a dump of the paper. It needs to be cleaned/reviewed
+> TODO:
+> - For now this is mainly a dump of the paper. It needs to be cleaned/reviewed
+> - Consider a clearer formatting for the keywords. Maybe **_keywords_** ?
 
 --- 
 
@@ -94,6 +96,11 @@ Beyond identifying the lifecycle phase in which a problem originates, it is also
 
 #### Type 
 
+> TODO:
+> - Make a reference section
+> - Link to references
+> - Maybe add (back) a bit more context before the table?
+
 We adopt the classification of technology impact
 from Hilty and Aebischer [18], which distinguishes:
 
@@ -107,12 +114,12 @@ Systemic impacts are challenging to assess, as they often arise from complex int
 
 #### Lifecycle phase
 
-The cause(s) of a problem may stem from a different lifecycle phase than those were the impact occurs, which is why **lifecycle phase**| appears both under [cause](#cause) and [impact](#impact).
-
-See [above](#lifecycle-phase) for the lifecycle phases description.
+The **cause(s)** of a **problem** may stem from a different lifecycle phase than those were the impact occurs, which is why **lifecycle phase** appears both under [cause](#cause) and [impact](#impact).
 
 > TODO: add an example
- 
+
+See [above](#lifecycle-phase) for the lifecycle phase descriptions.
+
 #### Nature
 
 Plain text description of the nature of the impact; that is, what the actual impact _is_.
@@ -123,31 +130,19 @@ Plain text description of the nature of the impact; that is, what the actual imp
 
 #### Agent
 
-The agents capable of
-performing countermeasures are, in principle, the same as those
-involved in causing sustainability problems—users, developers, en-
-gineers, providers, policy-makers, and others. However, not all 
-agents who contribute to a problem are equally positioned to inter-
-vene. Performing a countermeasure requires not just involvement,
-but also the capacity to act effectively and responsibly.
-Some agents are particularly well-situated to drive change due to
-their structural role or access to key decisions—for instance, infra-
-structure providers, product owners, or regulatory bodies. Others
-may play a supporting or enabling role, such as end users who re-
-spond to better defaults, or engineers who highlight opportunities
-for improvement. In many cases, effective countermeasures depend
-on coordination across multiple agent types. Thus, while any agent
-can in principle contribute to a more sustainable computing ecosys-
-tem, their actual capacity to intervene varies widely. Recognizing
-these differences is essential when evaluating the feasibility, scope,
-and responsibility of potential countermeasures. In any case, agents
-need to be informed, motivated, and able to make a change.
+The **agents** capable of performing **countermeasures** are, in principle, the same as those involved in causing sustainability problems—users, developers, engineers, providers, policy-makers, and others.
+However, not all agents who contribute to a problem are equally positioned to intervene. Performing a countermeasure requires not just involvement, but also the capacity to act effectively and responsibly. Some agents are particularly well-situated to drive change due to their structural role or access to key decisions—for instance, infrastructure providers, product owners, or regulatory bodies. Others may play a supporting or enabling role, such as end users who respond to better defaults, or engineers who highlight opportunities for improvement. In many cases, effective countermeasures depend on coordination across multiple agent types. Thus, while any agent can in principle contribute to a more sustainable computing ecosystem, their actual capacity to intervene varies widely.
+
+Recognizing these differences is essential when evaluating the feasibility, scope, and responsibility of potential countermeasures. In any case, agents need to be informed, motivated, and able to make a change.
 
 #### Action
 
 ##### Domain
 
-Similar to other fields of climate action, there are several ways to achieve change:
+Similar to other fields, potentional **actions** may fall into different **domains**:
+
+> TODO: 
+> - Make the description complete sentences.
 
 |Term|Description|
 |:---|:---|
@@ -157,13 +152,11 @@ Similar to other fields of climate action, there are several ways to achieve cha
 
 ##### Sustainable R's
 
-In Zero Waste communities, one often reads
-about various forms of five R’s (uncredited). They represent an
-order of guide verbs to agents, who want to act more sustainably.
-Earlier verbs have an impact on earlier phases of product / service
-lifecycles and hence potentially largest impact. Here, we present a
-variant fine-tuned to sustainable computing, the seven R’s:
+In Zero Waste communities, one often reads about various forms of five R’s (uncredited). They represent an order of guide verbs to agents, who want to act more sustainably. Earlier verbs have an impact on earlier phases of product / service lifecycles and hence potentially largest impact. Here, we present a variant fine-tuned to sustainable computing, the seven R’s:
 
+> TODO: 
+> - Make the description complete sentences.
+> 
 |Term|Description|
 |:---|:---|
 |**Rethink**| your current use of computing.|
@@ -176,68 +169,53 @@ variant fine-tuned to sustainable computing, the seven R’s:
 
 #### Lifecycle phase
 
-An intervention may target one or several
-of the system’s lifecycle phases, which will often be
-the same as where the problem manifests, but not always. E.g., users
-may be uninformed about the high operational cost of a system they
-use; a countermeasure is to introduce “efficiency labels” [2, 40] to
-create pressure during the design of future system generations.
+> TODO:
+> - References?
 
-See [above](#lifecycle-phase) for the lifecycle phases description.
+An **intervention** may target one or several of the system’s **lifecycle phases**, which will often be the same as where the problem manifests, but not always. 
+E.g., users may be uninformed about the high operational cost of a system they use; a countermeasure is to introduce “efficiency labels” [2, 40] to create pressure during the design of future system generations.
+
+See [above](#lifecycle-phase) for the lifecycle phase descriptions.
 
 #### Temporality
 
-Just as problems can arise from
-past decisions or ongoing practices, countermeasures can be either
-reactive or preventive. Some may address the lingering effects of
-past actions, while others aim to stop current practices or avoid
-future harm. Timing also influences effectiveness: early interven-
-tion can prevent long-term damage, while delayed action may only soften its consequences. In cases where impacts unfold slowly or
-with delay, timely countermeasures are important even if the prob-
-lem is not yet fully visible.
+> TODO: see comment from the problem temporality
+
+Just as problems can arise from past decisions or ongoing practices, countermeasures can be either reactive or preventive. Some may address the lingering effects of past actions, while others aim to stop current practices or avoid future harm. Timing also influences effectiveness: early intervention can prevent long-term damage, while delayed action may only soften its consequences. In cases where impacts unfold slowly or with delay, timely countermeasures are important even if the problem is not yet fully visible.
 
 ### Impact
 
-The (hopefully positive) impact of a countermeasure can be described exactly as the negative impact of a problem.
+The (hopefully positive) **impact** of a **countermeasure** can be described similarly as the negative impact of a problem.
 
-See [above](#impact) for the description.
+See [above](#impact) for the description of the types of **impacts**.
 
 ## Evidence
 
 ### Data
 
-Naturally, observations in the
-real world (e.g., measurements) and models (e.g., analytical projec-
-tions) are the basis for unveiling problems and validating counter-
-measures.
+Naturally, **observations** on the real world (e.g., measurements) and **models** (e.g., analytical projections) are the basis for unveiling problems and validating countermeasures.
 
 ### Metrics
 
-Most sustainability questions are multi-dimensional
-by nature. For example, opting for a heat-pump instead of a water-
-based cooling system will increase energy use but decrease water
-use; those two dimensions are not directly comparable.
+> TODO: Discuss the refinement of metric into "dimension" plus "metric"
 
+Most sustainability questions are multi-dimensional by nature. For example, opting for a heat-pump instead of a water-based cooling system will increase energy use but decrease water use; those two dimensions are not directly comparable.
 ... 
-
-> TODO: to be completed
 
 ### Angle
 
-When assessing the impact of a system,
-one may approach the problem from two opposite directions.
-
+When assessing the **impact** of a system, one may approach the problem from two opposite directions.
 
 |Term|Description|
 |:---|:---|
 |**Top-Down**| One may consider the entire footprint of a system, e.g., a datacenter, and divide it by the total output of the system. This approach requires few measurements (e.g., the total energy consumed by a datacenter) but also lacks granularity; i.e., it obfuscates the relative impact of the different parts of the system. For example, one can easily derive an average energy cost per query by dividing the total by the number of queries served in a year, which will include not only the system serving the query, but also other infrastructure costs, such as cooling. Accounting is usually done this way.|
 |**Bottom-Up**| Conversely, one can start from the bottom, measure all the individual costs, and add them up to get the system’s total. This provides a more fine-grained view on the respective importance of the system’s parts. This likely underestimates the total footprint, as one is bound to forget or be unable to measure some parts.|
 
-Differentiating those two approaches is important as they serve different purposes and are not inter-exchangable. Top-down is appropriate for accounting while bottom-up helps performance optimization by identifying the precise contributions of different system parts in its footprint.
+Differentiating those two approaches is important as they serve different purposes and are not inter-exchangable. **Top-down** is appropriate for accounting while **bottom-up** helps performance optimization by identifying the precise contributions of different system parts in its footprint.
 
 ### Reasoning
 
-When assessing the impact of countermeasures, there are two fundamentally different ways:
+When assessing the **impact** of **countermeasures**, one may use one of two fundamentally different **reasonings**:
 
 |Term|Description|
 |:---|:---|
@@ -246,10 +224,8 @@ When assessing the impact of countermeasures, there are two fundamentally differ
 
 ### Boundaries
 
-Impact assessment studies must clearly identify
-their boundaries; that is, where does the system we study end? It is
-particularly important for consequential reasoning: a given action
-may have positive consequences within one’s boundary, but negat-
-ive ones outside. A current example is carbon-aware computing,
-which may reduce the carbon footprint of a cloud provider but
-leads to an increase in the footprint for the power grid. While it is virtually impossible to account for all externalities for a true global net impact assessment, one must be aware and mindful of potential consequences outside of one’s system boundaries.
+> TODO: 
+> - Give an example
+> - Explain that this is "free text" in general but should probably be made more categorical for a given context. For example: for the boundaries of an LLM include (operation, embodied), (training, inference) are obvious categories that could/should be used.
+
+Impact assessment studies must clearly identify their boundaries; that is, where does the system we study end? It is particularly important for consequential reasoning: a given action may have positive consequences within one’s boundary, but negative ones outside. A current example is carbon-aware computing, which may reduce the carbon footprint of a cloud provider but leads to an increase in the footprint for the power grid. While it is virtually impossible to account for all externalities for a true global net impact assessment, one must be aware and mindful of potential consequences outside of one’s system boundaries.
