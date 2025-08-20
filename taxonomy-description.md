@@ -38,34 +38,18 @@
 
 #### Agent
 
-Environmental problems related to
-technology are always connected to human activity in some way,
-as human agents either make or use technology (Figure 2). Often,
-different agents may contribute to a given problem, e.g., users,
-designers, engineers, deployers, providers, importers, or policy-
-makers. Some agents are always present: without users, computing
-systems serve no purpose; without developers and engineers, they
-would not exist. Others, such as importers, may only be relevant in
-specific contexts. At the same time, others or the same agents may
-also play a role in mitigating these problems.
+Environmental problems related to technology are always connected to human activity in some way, as human agents either make or use technology. 
+Often, different agents may contribute to a given problem, e.g., users, designers, engineers, deployers, providers, importers, or policy-makers. 
+Some agents are always present: without users, computing systems serve no purpose; without developers and engineers, they would not exist. Others may only be relevant in specific contexts. 
+At the same time, the same or other agents may also play a role in mitigating these problems.
 
 Agents may cause problems if they are either
 
-- `Uninformed` Agents may lack the knowledge needed to recognize
-their role in causing environmental harm. For instance,
-software developers may not be aware of the energy im-
-plications of their design choices.
-- `Unmotivated` Even when the relevant information is available, some
-agents may not care sufficiently, may prioritize other goals,
-or even oppose the sustainable actions. This can manifest
-in overuse of digital services, disregard for efficiency in
-development, or neglect of sustainability in procurement
-and deployment choices.
-- `Unable` Sometimes, agents are motivated and aware, yet lack the
-power to act. Users may face systems with no sustainable
-alternatives or settings. Developers may be constrained by
-organizational decisions or lack the authority to change
-core infrastructure.
+|||
+|:---|:---|
+|**Uninformed** | Agents may lack the knowledge needed to recognize their role in causing environmental harm. For instance, software developers may not be aware of the energy implications of their design choices.|
+|**Unmotivated**| Even when the relevant information is available, some agents may not care sufficiently, may prioritize other goals, or even oppose the sustainable actions. This can manifest in overuse of digital services, disregard for efficiency in development, or neglect of sustainability in procurement and deployment choices.|
+|**Unable**|Sometimes, agents are motivated and aware, yet lack the power to act. Users may face systems with no sustainable alternatives or settings. Developers may be constrained by organizational decisions or lack the authority to change core infrastructure.|
 
 #### Technology
 
