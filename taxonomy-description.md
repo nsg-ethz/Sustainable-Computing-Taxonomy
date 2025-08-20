@@ -43,7 +43,7 @@ Often, different agents may contribute to a given problem, e.g., users, designer
 Some agents are always present: without users, computing systems serve no purpose; without developers and engineers, they would not exist. Others may only be relevant in specific contexts. 
 At the same time, the same or other agents may also play a role in mitigating these problems.
 
-Agents may cause problems if they are either
+Agents may cause problems if they are either:
 
 |Term|Description|
 |:---|:---|
@@ -55,54 +55,40 @@ Agents may cause problems if they are either
 
 We make a distinction between two **Classes** of technology: **Hardware** and **Software**.
 This is not only because one can exist without the other, but primarily because many studies focus specifically on one or the other.
-
 These technologies can suffer from various sustainability **Issues**, including
 
 > TODO: do not forget to update the labels.
 
-- `Unsustainably Operated` Using dirty and/or non-renewable energy.
-- `Bloated` More powerful than needed for its use. Unused software
-features increase binary sizes and hence both download
-times and storage needs. Unused hardware features have
-an embodied footprint that is never amortized.
-- `with Questionable Functionality` Contains functions that leverage,
-possibly unintentionally, resource-intensive technologies,
-e.g., generative AI or hyperledgers.
-- `with Short Lifetime` Not used long enough to amortize the environ-
-mental production costs. For hardware, this can be caused
-by low-quality production or use-case specificity (i.e., not usable for other, comparable use cases). For software, this
-can be caused by planned obsolescence or end-of-life due
-to company policy decisions.
-- `with High Environmental Footprint` Produced under questionable
-circumstances and extensively using rare, non-renewable
-materials and non-renewable energy.
-- `Stagnating` Innovation is blocked by habits, regulations, or loss
-of interoperability. For instance, if a small potential effi-
-ciency gain requires throwing away significant amounts of
-hardware in exchange.
+|Term|Description|
+|:---|:---|
+|**Unsustainably Operated**| Using dirty and/or non-renewable energy.|
+|**Bloated**| More powerful than needed for its use. Unused software features increase binary sizes and hence both download times and storage needs. Unused hardware features have an embodied footprint that is never amortized.|
+|**with Questionable Functionality**| Contains functions that leverage, possibly unintentionally, resource-intensive technologies, e.g., generative AI or hyperledgers.|
+|**with Short Lifetime**| Not used long enough to amortize the environmental production costs. For hardware, this can be caused by low-quality production or use-case specificity (i.e., not usable for other, comparable use cases). For software, this can be caused by planned obsolescence or end-of-life due to company policy decisions.|
+|**with High Environmental Footprint**| Produced under questionable circumstances and extensively using rare, non-renewable materials and non-renewable energy.|
+|**Stagnating**| Innovation is blocked by habits, regulations, or loss of interoperability. For instance, if a small potential efficiency gain requires throwing away significant amounts of hardware in exchange.|
 
 #### Lifecycle phase
 
+> TODO:
+> - Are those terms standard? We should most likely use and refer to one of the ICT LCA standards.
+> - Make the description complete sentences.
+
 A sustainability problem usually manifests at one or several of the lifecycle phases of a computing system.
 
-- `Design` involves decisions that define and constrain the system.
-- `Production (Hardware)` is where the embodied footprint is caused.
-- `Deployment (Software)` is where software runs on hardware.
-- `Operation` is where work is done, causing the operational footprint.
-- `Decommission` discards stored data/software, stops using hardware.
+|Term|Description|
+|:---|:---|
+|**Design**| involves decisions that define and constrain the system.|
+|**Production**| (Hardware) is where the embodied footprint is caused.|
+|**Deployment**|  (Software)is where software runs on hardware.|
+|**Operation**| is where work is done, causing the operational footprint.|
+|**Decommission**| discards stored data/software, stops using hardware.|
 
-#### Temporality 
+#### Temporality
 
-Beyond identifying the lifecycle phase
-in which a problem originates, it is also useful to consider when
-the underlying cause occurs. Some problems stem from one-off
-decisions, such as hardware design choices or infrastructure in-
-vestments, while others arise from ongoing practices, like usage
-patterns or operational defaults. Also, if the cause lies in the past,
-post-hoc mitigation of its effects is the only option; if it is still on-
-going, there may be a chance to stop it. Timing also matters for the
-impact: some effects occur immediately, while others accumulate
-slowly or only become visible after a delay.
+> TODO: I agree that the temporality of the problem/cause is interesting to have, but as it stands, it is too fuzzy. I think it's important that the taxonomy is actionable and, in particular, that it is clear how to categorize some study using it. To enable that, I think we need to have a (small) set of key terms and accompanying descriptions, as for the other dimensions.
+
+Beyond identifying the lifecycle phase in which a problem originates, it is also useful to consider when the underlying cause occurs. Some problems stem from one-off decisions, such as hardware design choices or infrastructure investments, while others arise from ongoing practices, like usage patterns or operational defaults. Also, if the cause lies in the past, post-hoc mitigation of its effects is the only option; if it is still on-going, there may be a chance to stop it. Timing also matters for the impact: some effects occur immediately, while others accumulate slowly or only become visible after a delay.
 
 ### Impact
 
@@ -111,22 +97,17 @@ slowly or only become visible after a delay.
 We adopt the classification of technology impact
 from Hilty and Aebischer [18], which distinguishes:
 
-- `Direct` or lifecycle impacts result from the resource used to manufacture, operate, and recycle a computing system.
-- `Indirect` or enabling impacts capture the external effects from using a computing system. Those can either be negative (e.g., a
-software update causing hardware obsolescence) or posit-
-ive (e.g., heating control resulting in reduced energy usage).
-- `Systemic` or structural impacts are the consequence of persistent
-changes observable at the macro level, such as behavior
-change. A rebound effect [20] is an example of negative
-systemic impacts; there could be positive ones too.
+|Term|Description|
+|:---|:---|
+|**Direct**| or lifecycle impacts result from the resource used to manufacture, operate, and recycle a computing system.|
+|**Indirect**| or enabling impacts capture the external effects from using a computing system. Those can either be negative (e.g., a software update causing hardware obsolescence) or positive (e.g., heating control resulting in reduced energy usage).|
+|**Systemic**| or structural impacts are the consequence of persistent changes observable at the macro level, such as behavior change. A rebound effect [20] is an example of negative systemic impacts; there could be positive ones too.|
 
-Systemic impacts are challenging to assess, as they often arise from
-complex interdependencies, long-term feedback loops, or social
-and economic dynamics far beyond the control of any single agent.
+Systemic impacts are challenging to assess, as they often arise from complex interdependencies, long-term feedback loops, or social and economic dynamics far beyond the control of any single agent.
 
 #### Lifecycle phase
 
-The cause(s) of a problem may stem from a different lifecycle phase than those were the impact occurs, which is why `lifecycle phase` appears both under [cause](#cause) and [impact](#impact).
+The cause(s) of a problem may stem from a different lifecycle phase than those were the impact occurs, which is why **lifecycle phase**| appears both under [cause](#cause) and [impact](#impact).
 
 See [above](#lifecycle-phase) for the lifecycle phases description.
 
@@ -168,12 +149,11 @@ need to be informed, motivated, and able to make a change.
 
 Similar to other fields of climate action, there are several ways to achieve change:
 
-- `Technological` leverages scientific or engineering inventions to
-apply changes in (ideally widely deployed) technology.
-- `Regulatory` is caused by legislators or other interest groups passing
-regulations that legally enforce changes.
-- `Behavioral` leaves it to individual agents to decide to change, inde-
-pendently of regulations or technology.
+|Term|Description|
+|:---|:---|
+|**Technological**| leverages scientific or engineering inventions to apply changes in (ideally widely deployed) technology.|
+|**Regulatory**| is caused by legislators or other interest groups passing regulations that legally enforce changes.|
+|**Behavioral**| leaves it to individual agents to decide to change, independently of regulations or technology.|
 
 ##### Sustainable R's
 
@@ -184,13 +164,15 @@ Earlier verbs have an impact on earlier phases of product / service
 lifecycles and hence potentially largest impact. Here, we present a
 variant fine-tuned to sustainable computing, the seven R’s:
 
-- `Rethink` your current use of computing.
-- `Refuse` additional / extended products and services.
-- `Reduce` your use of computing.
-- `Reuse` obsolete but functional hardware in a different use case.
-- `Repair` broken hardware / software to continue its original use.
-- `Recycle` by extracting resources via manmade processing cycles.
-- `Rot` to give resources back to natural processing cycles.
+|Term|Description|
+|:---|:---|
+|**Rethink**| your current use of computing.|
+|**Refuse**| additional / extended products and services.|
+|**Reduce**| your use of computing.|
+|**Reuse**| obsolete but functional hardware in a different use case.|
+|**Repair**| broken hardware / software to continue its original use.|
+|**Recycle**| by extracting resources via manmade processing cycles.|
+|**Rot**| to give resources back to natural processing cycles.|
 
 #### Lifecycle phase
 
@@ -245,41 +227,22 @@ use; those two dimensions are not directly comparable.
 When assessing the impact of a system,
 one may approach the problem from two opposite directions.
 
-- `Top-Down` One may consider the entire footprint of a system, e.g.,
-a datacenter, and divide it by the total output of the system.
-This approach requires few measurements (e.g., the total en-
-ergy consumed by a datacenter) but also lacks granularity;
-i.e., it obfuscates the relative impact of the different parts of
-the system. For example, one can easily derive an average
-energy cost per query by dividing the total by the number
-of queries served in a year, which will include not only
-the system serving the query, but also other infrastructure
-costs, such as cooling. Accounting is usually done this way.
-- `Bottom-Up` Conversely, one can start from the bottom, measure
-all the individual costs, and add them up to get the sys-
-tem’s total. This provides a more fine-grained view on the
-respective importance of the system’s parts. This likely un-
-derestimates the total footprint, as one is bound to forget
-or be unable to measure some parts.
 
-Differentiating those two approaches is important as they serve
-different purposes and are not inter-exchangable. Top-down is
-appropriate for accounting while bottom-up helps performance
-optimization by identifying the precise contributions of different
-system parts in its footprint.
+|Term|Description|
+|:---|:---|
+|**Top-Down**| One may consider the entire footprint of a system, e.g., a datacenter, and divide it by the total output of the system. This approach requires few measurements (e.g., the total energy consumed by a datacenter) but also lacks granularity; i.e., it obfuscates the relative impact of the different parts of the system. For example, one can easily derive an average energy cost per query by dividing the total by the number of queries served in a year, which will include not only the system serving the query, but also other infrastructure costs, such as cooling. Accounting is usually done this way.|
+|**Bottom-Up**| Conversely, one can start from the bottom, measure all the individual costs, and add them up to get the system’s total. This provides a more fine-grained view on the respective importance of the system’s parts. This likely underestimates the total footprint, as one is bound to forget or be unable to measure some parts.|
+
+Differentiating those two approaches is important as they serve different purposes and are not inter-exchangable. Top-down is appropriate for accounting while bottom-up helps performance optimization by identifying the precise contributions of different system parts in its footprint.
 
 ### Reasoning
 
 When assessing the impact of countermeasures, there are two fundamentally different ways:
 
-- `Attributional` One may ask: What is the footprint of system X ?
-Or, who is responsible for that footprint? This is an attri-
-butional reasoning, which is essentially accounting—it is
-about getting the total number right.
-- `Consequential` Conversely, one may wonder what is the impact of
-an action Y ? Consequential reasoning aims to assess the
-respective benefits of alternatives. The difference between
-action A and action B is more important than the total.
+|Term|Description|
+|:---|:---|
+|**Attributional**| One may ask: What is the footprint of system X ? Or, who is responsible for that footprint? This is an attributional reasoning, which is essentially accounting—it is about getting the total number right.|
+|**Consequential**| Conversely, one may wonder what is the impact of an action Y ? Consequential reasoning aims to assess the respective benefits of alternatives. The difference between action A and action B is more important than the total.|
 
 ### Boundaries
 
