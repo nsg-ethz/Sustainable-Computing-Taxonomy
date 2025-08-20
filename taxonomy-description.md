@@ -53,10 +53,10 @@ Agents may cause problems if they are either
 
 #### Technology
 
-We make a distinction between physical `hardware` and digital `software` products—not because one can exist
-without the other, but rather because many anecdotes have a clear
-focus on one or the other. Both hardware and software can suffer
-from several sustainability `issues`, including
+We make a distinction between two **Classes** of technology: **Hardware** and **Software**.
+This is not only because one can exist without the other, but primarily because many studies focus specifically on one or the other.
+
+These technologies can suffer from various sustainability **Issues**, including
 
 > TODO: do not forget to update the labels.
 
