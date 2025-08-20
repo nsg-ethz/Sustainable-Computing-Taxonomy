@@ -7,7 +7,9 @@ The description is structured around three interconnected parts:
 - A [**countermeasure**](./countermeasure.yaml) that aims to address that problem;
 - Pieces of [**evidence**](./evidence.yaml) that either unveil the problem or validate the efficiency of the countermeasure.
 
-> TODO: insert graphic here
+![Overview of the sustainable computing taxonomy illustrating the interconnection between problems, countermeasures, and evidence.](taxonomy_overview.png "Overview of the sustainable computing taxonomy")
+
+> TODO: fix the graphic to match the updated version of the taxonomy
 
 The complete taxonomy is shown below and is accompanied by a [description of the various terms](./taxonomy-description.md).
 
